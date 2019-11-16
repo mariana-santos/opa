@@ -1,0 +1,162 @@
+.menu{
+    width: 100%;
+    position: absolute;
+    margin-top: -30%;
+    font-weight: bolder;
+}
+#logo{
+    width:70px;
+    align-items: center;
+    margin-top: 0%;
+    transition: 0.8s;
+}
+#logo:hover{
+    width:75px;
+}
+.limenu .amenu{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        width: 16%;
+        float: left;
+        text-align: justify;
+        color: #117a8b;
+        font-weight: bolder;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: lighter;
+        font-size: 20px;
+        padding: 0 20px;
+}
+.limenulogo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 16%;
+    float: left;
+    text-align: justify;
+}
+.amenu::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+.amenu:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+#rodape{
+    background: #117a8b;
+    bottom: 0;
+    margin-top: 70%;
+    margin-bottom: -1%;
+    height: 25%;
+}
+.strongrodape{
+    margin-top: 3%;
+    padding-left: 200px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.imgrodape{
+    width: 30px;
+    transition: 0.3s;
+    margin-left: 59%;
+}
+.imgrodape:hover{
+    opacity: 0.6;
+}
+.arodape{
+    color: white;
+    margin-left: 10px;
+}
+.arodape3{
+    color: white;
+    margin-left: 65%;
+}
+.arodape3:hover{
+    color: white;
+}
+.arodape2{
+    color: white;
+    margin-left: 10px;
+}
+.arodape2:hover{
+    text-decoration: none;
+    color: white;
+}
+.lirodape .arodape:hover{
+    color: white;
+}
+
+.ulrodape{
+    float: left;
+}
+.coluna{
+    width: 20%;
+    float: left;
+    padding:0px 10px;
+    margin-top: 0;
+}
+.linha::after{
+    content: "";
+    display: table;
+    clear: both;
+    margin-top: 0;
+}
+@media screen and(max-width:600px){
+    .coluna{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.prod{
+    max-width: 300px;
+    border: solid 1px;
+    border-color: #117a8b;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    background: #addae01c;
+}
+.prod:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 305px;
+}
+.imgprod{
+    width: 65%;
+    height: 40%;
+    padding-top: 10px;
+}
+.strongprod{
+    font-size: 20px;
+    line-height: 35px;
+}
+.pprod{
+    font-size: 20px;
+    line-height: 20px;
+}
+.preco{
+    font-size: 23px;
+    line-height: 30px;
+    margin-top: -2%;
+}
+.generos{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+hr{
+    height: -2px;
+    margin-left: 15%;
+    margin-right: 55%;
+	border: 1px solid; 
+    border-color:#117a8b; 
+}
